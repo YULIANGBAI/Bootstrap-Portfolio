@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 250px}
+
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #A8D0E6;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Welcome</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <form>
+    <h2>Contact</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="first">First Name</label>
+          <input type="text" class="form-control" placeholder="" id="first">
+        </div>
+      </div>
+     
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="last">Last Name</label>
+          <input type="text" class="form-control" placeholder="" id="last">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" class="form-control" placeholder="" id="company">
+        </div>
+
+      </div>
+      
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="phone">
+        </div>
+      </div>
+     
+    
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="email">
+        </div>
+      </div>
+     
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+<footer class="container-fluid text-center">
+      <p style="size:10px;">&#169; Copyright, 2019, Yuliang Bai</p>
+</footer>
+
+
+</body>
+</html>
+
+
+
